@@ -1,0 +1,355 @@
+body {
+    margin: 0;
+    background-color: #F4E1D5;
+}
+.grid-container {
+    display: grid;
+}
+#mobile-nav {
+    background-color: #F4E1D5;opacity: 0.8;
+    position: fixed;
+    top: 0;
+    left: 65%; 
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+}
+#mobile-nav a {
+    color: #6A1816;
+    display: block;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: "trade-gothic-next-condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#mobile-nav a:hover{
+    color: #58652D;
+    
+}
+#close-menu {
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #6A1816;
+    color: #F4E1D5;
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: none;
+    font-size: 18px;
+    font-family: "trade-gothic-next-condensed", sans-serif;
+    font-weight: 600;
+    
+}
+#close-menu:hover {
+    background-color: #58652D;
+}
+#menuimg {
+    width: 300px;
+}
+#menuimg2 {
+    width: 300px;
+}#menuimg3 {
+    width: 300px;
+}
+.colnav {
+    grid-template-columns: 190px auto;
+    align-items: center;
+    text-align: right;
+}
+.col2 {
+    display: grid;
+    grid-template-areas: "cheftext chefimg";
+    align-items: center;
+    margin: 140px;
+    column-gap: 30px;
+    margin: 90px;
+}
+.col3 {
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.colft {
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: top;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+}
+.red {
+    background-color: #6A1816;
+}
+.green {
+    background-color: #58652D;
+}
+.logo {
+    height: 100px;
+    max-width: 100px;
+    padding: 14px 37px;
+}
+.nav a {
+    text-align: center;
+    padding: 100px;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: "trade-gothic-next-condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #F4E1D5;
+  }
+  .nav button {
+    display: none;
+    color: #F4E1D5;
+    margin-right: 40px;
+    border: none;
+    background-color: transparent;
+  }
+  .nav a:hover {
+    color: #58652D;
+  }
+  .nav button:hover {
+    color: #58652D;
+  }
+
+.hero-image {
+    background-image: url(../images/kitchen\ web.jpg);
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+.overlay {
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+background-color: rgba(88, 101, 45, .73);
+width: 683px;
+height: 341px;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.button {
+    background-color: #6A1816;
+color: #F4E1D5;
+border-radius: 30px;
+padding: 20px 20px;
+margin-left: 140px;
+font-family: "trade-gothic-next-condensed", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 30px;
+transition-duration: 0.3s;
+cursor: pointer;
+text-decoration: none;
+text-align: center;
+}
+.button:hover {
+    background-color: #C47C7A;
+    color: #F4E1D5;
+}
+.material-symbols-outlined {  
+    font-variation-settings:  
+        'FILL' 1,  
+        'wght' 500,  
+        'GRAD' 0,  
+        'opsz' 25
+}
+h1  {
+    font-family: "de-walpergens-pica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    color: #F4E1D5;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 0;
+}
+.head-body {
+    font-family: "trade-gothic-next-condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    color: #F4E1D5;
+    text-align: left;
+    margin-left: 150px;
+    margin-top: -20px;
+    max-width: 310px;
+}
+h2 {
+    font-family: "trade-gothic-next-condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    color: #58652D;
+    text-align: left;
+    margin-top: 50px;
+}
+h3 {
+    font-family: "trade-gothic-next-condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    color: #F4E1D5;
+    text-align: center;
+}
+h4 {
+    font-family: "trade-gothic-next-condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    color: black;
+    text-align: left;
+}
+p {
+    font-size: 25px;
+    max-width: 300px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "trade-gothic-next-condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.cheftext {
+    font-size: 25px;
+    text-align: center;
+    grid-area: cheftext;
+    max-width: 600px;
+}
+.plateimg {
+    background-image: url(../images/pancit\ web.jpg);
+    background-size: cover;
+    height: 360px;
+    width: 100%;
+    position: relative;
+    margin-top: 65px;
+}
+.mchimg {
+    width: 300px;
+    margin: 20px;
+}
+footer {
+    padding: 20px;
+}
+.ftbody {
+    font-family: "trade-gothic-next-condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #F4E1D5;
+    text-align: center;
+}
+.ftbutton {
+    text-decoration: none;
+}
+.ftbutton:hover {
+    text-decoration: underline;
+    text-decoration-color: #F4E1D5;
+
+}
+@media screen and (max-width:1300px) {
+    .nav a {
+        display: none;
+    }
+    .nav button {
+    display: inline;
+    }
+}
+@media screen and (max-width:600px) {
+    .logo {
+    width: 75px;
+    height: auto;
+    }
+    .col3 {
+        grid-template-columns: 1fr;
+    }
+    .col2 {
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding: 20px;
+        margin: 20px;
+        grid-template-areas: 
+        "chefimg"
+        "cheftext";
+    }
+    .hero-image {
+        height: 400px;
+        width: 100%;
+    }
+    .overlay {
+        width: 350px;
+        height: 260px;
+    }
+    h1  {
+        font-size: 70px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h2 {
+        text-align: center;
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    h4 {
+        text-align: center;
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 25px;
+    }
+    .ftbody {
+        font-size: 15px;
+    }
+    .head-body {
+        font-size: 20px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 250px;
+    }
+    p {
+        font-size: 18px;
+        max-width: 250px;
+    }
+    .cheftext {
+        font-size: 18px;
+    }
+    .button {
+   display: inline;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 15px 15px; 
+    margin-left: 100px;
+    }
+    #menuimg {
+        width: 250px;
+    }
+    #menuimg2 {
+        width: 250px;
+        margin-top: 20px;
+    }
+    #menuimg3 {
+        width: 250px;
+        margin-top: 20px;
+    }
+    .plateimg {
+        width: 100%;
+        height: 120px;
+        margin-top: 40px;
+    }
+    .mchimg {
+        width: 180px;
+    }
+    
+}
+.chefimg {
+    width: 100%;
+    height: auto;
+    grid-area: chefimg;
+}
